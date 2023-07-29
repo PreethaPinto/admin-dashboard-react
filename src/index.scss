@@ -1,5 +1,5 @@
 * {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -24,14 +24,17 @@ body,
   width: 10px;
 }
 
+//Track
 ::-webkit-scrollbar-track {
   background: #e0e0e0;
 }
 
+//Handle
 ::-webkit-scrollbar-thumb {
   background: 888;
 }
 
+//Handle on hover
 ::-webkit-scrollbar-track:hover {
   background: 555;
-}/*# sourceMappingURL=index.css.map */
+}
